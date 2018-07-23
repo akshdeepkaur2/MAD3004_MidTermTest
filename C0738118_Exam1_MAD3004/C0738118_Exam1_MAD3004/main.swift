@@ -8,5 +8,7 @@
 
 import Foundation
 
-print("Hello, World!")
+var m1 = Manufacturer()
+m1.setData(ManufacturerId: 1, ManufacturerName: "apple")
+
 

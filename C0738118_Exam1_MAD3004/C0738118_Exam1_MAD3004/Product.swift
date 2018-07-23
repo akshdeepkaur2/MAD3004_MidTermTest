@@ -47,10 +47,12 @@ init(Productid: Int,ProductName: String,Price: Double,Quantity: Int){
     
 }
 
-func printdata()
-    
+func printData()
 {
-    
+    print("ProductId: \(self.id!)")
+    print("ProductName: \(self.lastName!)")
+    print("Price: \(self.Price!)")
+    print("Quantity: \(self.Quantity!)")
 }
 
 
