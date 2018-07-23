@@ -19,7 +19,8 @@ class Order: Product
     {
 }
 
-
+    var OrderPrice: Double!
+    var OrderDiscount: Double!
 init() {
    super.init()
     self.OrderId = -1
@@ -49,7 +50,7 @@ func display()
     
 {
     
-    print("OrderId is: \(self.orderid!) \t OrderDate is: \(self.orderDate!) \t  totalPrice is: \(self.totalPrice!)")
+    print("OrderId is: \(self.OrderId!) \t OrderDate is: \(self.orderDate!) \t  totalPrice is: \(self.totalPrice!)")
     
 }
 
