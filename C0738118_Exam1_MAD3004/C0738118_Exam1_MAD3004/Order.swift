@@ -14,26 +14,12 @@ class Order: Product
     
     var OrderDate: Date!
     
-    var OrderPrice: Double!
-    
-    var OrderDiscount: Double!
-    
+    var product_array: Product
+    for item in product_array
+    {
 }
 
-func setData(OrderId: Int,OrderDate: Date, OrderPrice: Double, OrderDiscount: Double)
-    
-{
-    
-    self.OrderId = OrderId
-    
-    self.OrderDate = OrderDate
-    
-    self.OrderPrice = OrderPrice
-    
-    self.OrderDiscount = OrderDiscount
-    
-    
-}
+
 init() {
    super.init()
     self.OrderId = -1

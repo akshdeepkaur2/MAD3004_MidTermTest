@@ -15,5 +15,8 @@ var p3 = Product(ProductId: 300,ProductName: "Floopy disk",Price: 90.00,Quantity
 var p4 = Product(ProductId: 400,ProductName: "Monitor",Price: 80.00,Quantity:3)
 var p5 = Product(ProductId: 500,ProductName: "iPhone x",Price: 900.00,Quantity:5)
 
-var o1 = Order()
+
+Utils.getDate(year: 1998, month: 12, day: 30);)
+
+var o1 = Order(OrderId: 11,OrderDate: nil,OrderPrice)
 
