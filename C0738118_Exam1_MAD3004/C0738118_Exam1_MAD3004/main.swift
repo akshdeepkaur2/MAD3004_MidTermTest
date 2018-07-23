@@ -24,7 +24,7 @@ Order.display()
 func OrderNo(_: order)
 {
     
-    print("order detail is : \(order())");
+    print("Order detail is : \(Order())");
     
     func display()
     {
@@ -33,9 +33,9 @@ func OrderNo(_: order)
             
             [
                 
-                "orderID" : [ "100": "Hard Disk"],
+                "OrderID" : [ "100": "Hard Disk"],
                 
-                "orderID" : [ "400": "Floopy Disk"],
+                "OrderID" : [ "400": "Floopy Disk"],
                 
                 
             ],
@@ -45,9 +45,9 @@ func OrderNo(_: order)
                             
                             [
                                 
-                                "orderID" : [ "200": "Monitor"],
+                                "OrderID" : [ "200": "Monitor"],
                                 
-                                "orderID" : [ "344": "Joystick"],
+                                "OrderID" : [ "344": "Joystick"],
                                 
             ],
                         
@@ -56,10 +56,10 @@ func OrderNo(_: order)
                         "Order3" :
                             
                             
-                            [  "orderID" : [ "300": "Zip Drive"],
+                            [  "OrderID" : [ "300": "Zip Drive"],
                                
                                
-                               "orderID" : [ "500": "iPhone X"],
+                               "OrderID" : [ "500": "iPhone X"],
             ]
             
         ]
