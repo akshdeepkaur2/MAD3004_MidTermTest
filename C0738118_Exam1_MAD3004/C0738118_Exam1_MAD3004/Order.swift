@@ -36,6 +36,30 @@ init(orderId: Int, orderDate: Date!,OrderPrice:Double,OrderDiscount: Double) {
     self.OrderPrice = OrderPrice
     self.OrderDiscount = OrderDiscount
 }
+    var totalorder: Int = 0
+    {
+        
+        willSet(newTotalorder)
+        {
+            
+            print("About to set totalorder to \(newTotalorder)")
+        }
+        
+        didSet {
+            
+            if totalorder > oldValue
+            {
+                
+                print("Added (totalorder - oldValue) orders")
+                
+            }
+            
+        }
+    }
+    func setData(orderID: Int,ProductName: String,date: Date)
+    {
+        
+    }
 
 
 func calcPrice()
