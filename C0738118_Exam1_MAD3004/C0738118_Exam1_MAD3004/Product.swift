@@ -19,24 +19,39 @@ class Product: Manufacturer{
     var Quantity: Int!
     
 }
+init() {
+    
+    print("-- Person init(5 Parameters) --")
+    
+    self.ProductId = -1
+    
+    self.ProductName = ""
+    
+    self.Price = 0.0
+    
+    self.Quantity = 0
+    
+}
 
-init(ProductId: Int,ProductName: String, Price: Double, Quality: Int)
-{
+//constructor with parameter
+
+init(Productid: Int,ProductName: String,Price: Double,Quantity: Int){
     
-    self.ProductId = productId
+    self.ProductId = Productid
     
-    self.ProductName = productName
+    self.ProductName = ProductName
     
-    self.Price = price
+    self.Price = Price
     
-    self.Quantity = quantity
+    self.Quantity = Quantity
     
 }
 
-func printData()
+func printdata()
     
 {
     
-    
 }
+
+
 
