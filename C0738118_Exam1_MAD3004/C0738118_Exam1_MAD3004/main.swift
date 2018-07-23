@@ -8,15 +8,70 @@
 
 import Foundation
 
-var m1 = Manufacturer(ManufacturerId: 1, ManufacturerName: "apple")
-var p1 = Product(ProductId: 100,ProductName: "Hard drive",Price: 120.00,Quantity: 3)
-var p2 = Product(ProductId: 200,ProductName: "Zip drive",Price: 50.00,Quantity: 4)
-var p3 = Product(ProductId: 300,ProductName: "Floopy disk",Price: 90.00,Quantity:3)
-var p4 = Product(ProductId: 400,ProductName: "Monitor",Price: 80.00,Quantity:3)
-var p5 = Product(ProductId: 500,ProductName: "iPhone x",Price: 900.00,Quantity:5)
+var order = Order()
 
 
-Utils.getDate(year: 1998, month: 12, day: 30);)
 
-var o1 = Order(OrderId: 11,OrderDate: nil,OrderPrice)
+Order.OrderID = [100, 200, 300]
+
+
+print("Order ID is : \(order.order!)")
+
+Order.setData(orderID: 100, name: "Hard Disk")
+Order.display()
+
+
+func OrderNo(_: order)
+{
+    
+    print("order detail is : \(order())");
+    
+    func display()
+    {
+        
+        let orderNo = [ "Order1" :
+            
+            [
+                
+                "orderID" : [ "100": "Hard Disk"],
+                
+                "orderID" : [ "400": "Floopy Disk"],
+                
+                
+            ],
+                        
+                        
+                        "Order2" :
+                            
+                            [
+                                
+                                "orderID" : [ "200": "Monitor"],
+                                
+                                "orderID" : [ "344": "Joystick"],
+                                
+            ],
+                        
+                        
+                        
+                        "Order3" :
+                            
+                            
+                            [  "orderID" : [ "300": "Zip Drive"],
+                               
+                               
+                               "orderID" : [ "500": "iPhone X"],
+            ]
+            
+        ]
+        
+        
+        
+        
+        print(OrderNo)
+        
+}
+
+
+
+
 
