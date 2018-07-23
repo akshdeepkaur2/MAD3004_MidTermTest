@@ -12,16 +12,16 @@ var order = Order()
 
 
 
-Order.OrderID = [100, 200, 300]
+Order.orderID = [100, 200, 300,400,500.600]
 
 
-print("Order ID is : \(order.order!)")
+print("Order ID is : \(Order.order!)")
 
 Order.setData(orderID: 100, name: "Hard Disk")
 Order.display()
 
 
-func OrderNo(_: order)
+func OrderNo(_: Order)
 {
     
     print("Order detail is : \(Order())");
@@ -29,7 +29,7 @@ func OrderNo(_: order)
     func display()
     {
         
-        let orderNo = [ "Order1" :
+        let OrderNo = [ "Order1" :
             
             [
                 
@@ -67,10 +67,16 @@ func OrderNo(_: order)
         
         
         
-        print(OrderNo)
-        
+        print("100", "Hard Disk")
+        print("200", "Floopy disk")
+        print("300", "Monitor")
+        print("400", "joystick")
+        print("500", "zip drive")
+        print("600", "iPhone x")
 }
-
+    let today = Date()
+    
+    print(today)
 
 
 
