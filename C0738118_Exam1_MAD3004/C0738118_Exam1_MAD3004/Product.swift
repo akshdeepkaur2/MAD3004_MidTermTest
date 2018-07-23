@@ -62,7 +62,7 @@ var productDetail: (String) -> String
     }
     
     
-    var FllopyDisk: String!
+    var FloopyDisk: String!
     {
         didSet
         {
