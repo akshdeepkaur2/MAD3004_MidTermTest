@@ -20,17 +20,17 @@ class Order: Product
     
 }
 
-func setData(id: Int, firstName: String, lastName: String, basicSalary: Float, bonus: Float)
+func setData(OrderId: Int,OrderDate: Date, OrderPrice: Double, OrderDiscount: Double)
     
 {
     
-    self.OrderId = orderId
+    self.OrderId = OrderId
     
-    self.OrderDate = orderDate
+    self.OrderDate = OrderDate
     
-    self.OrderPrice = price
+    self.OrderPrice = OrderPrice
     
-    self.OrderDiscount = discount
+    self.OrderDiscount = OrderdDiscount
     
     
 }
@@ -52,5 +52,5 @@ func display()
     
 }
 
-}
+
     
