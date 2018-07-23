@@ -23,7 +23,7 @@ init() {
     
     print("-- Person init(5 Parameters) --")
     
-    self.ProductId = -1
+    self.ProductId = 1
     
     self.ProductName = ""
     
@@ -33,11 +33,9 @@ init() {
     
 }
 
-//constructor with parameter
-
-init(Productid: Int,ProductName: String,Price: Double,Quantity: Int){
+init(ProductId: Int,ProductName: String,Price: Double,Quantity: Int){
     
-    self.ProductId = Productid
+    self.ProductId = ProductId
     
     self.ProductName = ProductName
     
@@ -49,8 +47,8 @@ init(Productid: Int,ProductName: String,Price: Double,Quantity: Int){
 
 func printData()
 {
-    print("ProductId: \(self.id!)")
-    print("ProductName: \(self.lastName!)")
+    print("ProductId: \(self.ProductId!)")
+    print("ProductName: \(self.ProductName!)")
     print("Price: \(self.Price!)")
     print("Quantity: \(self.Quantity!)")
 }

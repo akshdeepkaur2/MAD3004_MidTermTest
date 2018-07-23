@@ -30,9 +30,24 @@ func setData(OrderId: Int,OrderDate: Date, OrderPrice: Double, OrderDiscount: Do
     
     self.OrderPrice = OrderPrice
     
-    self.OrderDiscount = OrderdDiscount
+    self.OrderDiscount = OrderDiscount
     
     
+}
+init() {
+    print("-- Person init() --")
+    self.OrderId = -1
+    self.OrderDate = nil
+    self.OrderPrice = 0.0
+    self.Orderdiscount = 0.0
+}
+
+init(orderId: Int, orderDate: Date!,OrderPrice:Double,OrderDiscount: Double) {
+    print("-- Person init(Parameters) --")
+    self.OrderId = OrderId
+    self.OrderDate = OrderDate
+    self.OrderPrice = OrderPrice
+    self.OrderDiscount = OrderDiscount
 }
 
 

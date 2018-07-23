@@ -19,10 +19,14 @@ func setData(ManufacturerId:Int,ManufacturerName: String)
     
 {
     
-    self.ManufacturerId = ManufacturerId
+    self.ManufacturerId = 1
     
-    self.ManufacturerName = ManufacturerName
+    self.ManufacturerName = ""
     
     
 }
-func displayData(
+func displayData()
+{
+    print("ManufacturerId: \(self.Manufacturerid!)")
+    print("ManufactuterName: \(self.ManufacturerName!)")
+}
