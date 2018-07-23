@@ -35,7 +35,7 @@ func setData(OrderId: Int,OrderDate: Date, OrderPrice: Double, OrderDiscount: Do
     
 }
 init() {
-    print("-- Person init() --")
+   super.init()
     self.OrderId = -1
     self.OrderDate = nil
     self.OrderPrice = 0.0

@@ -21,8 +21,7 @@ class Product: Manufacturer{
 }
 init() {
     
-    print("-- Person init(5 Parameters) --")
-    
+    super.init()
     self.ProductId = 1
     
     self.ProductName = ""
@@ -34,7 +33,7 @@ init() {
 }
 
 init(ProductId: Int,ProductName: String,Price: Double,Quantity: Int){
-    
+    super.init(ManufacturerId = ManufacturerId,ManufacturerName = ManufacturerName)
     self.ProductId = ProductId
     
     self.ProductName = ProductName
